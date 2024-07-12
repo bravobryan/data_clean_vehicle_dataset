@@ -46,7 +46,7 @@ The "Vehicle Dataset 2024" dataset was found through Kaggle.com and is available
         - interior_color: 38 missing.
     - Data Sparsity of < 2%.
  ![Figure 1 – Visualization of missing values in the dataset. Solid bars indicate no missing values.](./images/missingvalues01.png)
-- **Source Code**: Bilogur, (2018). Missingno: a missing data visualization suite. Journal of Open Source Software, 3(22), 547, https://doi.org/10.21105/joss.00547
+**Source Code**: _Bilogur, (2018). Missingno: a missing data visualization suite. Journal of Open Source Software, 3(22), 547, https://doi.org/10.21105/joss.00547_
 missing.
 
 
