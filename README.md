@@ -1,5 +1,7 @@
 # Data Cleaning Project
-A project to perform data cleaning tasks.
+A project to perform data cleaning tasks using Python code within Jupyter Notebook.
+- The Jupyter Notebook file is: `data_clean_vehicles.ipynb`
+- The final result of the cleaned dataset is saved as a CSV file: `./dataset/vehicle_cleaned.csv`
 
 The "Vehicle Dataset 2024" dataset was found through Kaggle.com and is available under the ODC Attribution License. https://www.kaggle.com/datasets/kanchana1990/vehicle-dataset-2024
 
@@ -5968,6 +5970,3 @@ quantitative_visualizer(vehicle_only_df, 'doors')
 - The distribution of the doors variable is heavily left-skewed.
 
 
-```python
-
-```
