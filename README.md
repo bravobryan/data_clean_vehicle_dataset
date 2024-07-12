@@ -44,7 +44,8 @@ The "Vehicle Dataset 2024" dataset was found through Kaggle.com and is available
         - doors: 7 missing,
         - exterior_color: 5 missing, and
         - interior_color: 38 missing.
-    - Data Sparsity of < 2%. ![](./images/missingvalues01.png)
+    - Data Sparsity of < 2%.
+ ![](./images/missingvalues01.png)
 missing.
 
 
