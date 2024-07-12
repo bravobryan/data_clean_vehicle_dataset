@@ -4,26 +4,24 @@ A project to perform data cleaning tasks.
 The "Vehicle Dataset 2024" dataset was found through Kaggle.com and is available under the ODC Attribution License. https://www.kaggle.com/datasets/kanchana1990/vehicle-dataset-2024
 
 ## Dataset Variables
-| Variable Name      | Data Type   | Description                                                                   | Variable Example                                    | 
-| ------------------ | ----------- | ----------------------------------------------------------------------------- | --------------------------------------------------- |
-| **name**           | Text        | The vehicle's full name, including make, model, and trim.                     | `"2024 Jeep Wagoneer Series II"`                    |
-| **description**    | Text        | A brief vehicle description, often including key features and selling points. | `"White Knuckle Clearcoat 2023 Dodge Durango Pur…"` |
-| **make**           | Categorical | The vehicle manufacturer (Ford, Toyota, BMW).                                 | `"Jeep"`                                            |
-| **model**          | Categorical | The model name of the vehicle.                                                | `"Wagoneer"`                                        |
-| **type**           | Categorical | The type of vehicle (New, Used).                                              | `"New"`                                             |
-| **year**           | Continuous  | The year the vehicle was manufactured.                                        | `2024`                                              |
-| **price**          | Discrete    | The price of the vehicles in USD.                                             | `74600.0`                                           |
-| **engine**         | Text        | Details about the engine, including type and specifications                   | `"24V GDI DOHC Twin Turbo"`                         |
-| **cylinders**      | Discrete    | The number of cylinders in a vehicle's engine.                                | `6.0`                                               |
-| **fuel**           | Categorical | The vehicle's fuel type. (Gasoline, Diesel, Electric)                         | `"Gasoline"`                                        |
-| **mileage**        | Continuous  | The vehicle's mileage.                                                        | `32.0`                                              |
-| **transmission**   | Categorical | The transmission type. (Automatic, Manual)                                    | `"8-Speed Automatic"`                               |
-| **trim**           | Categorical | The trim level of the vehicle, indicating different feature sets or packages  | `"Series II"`                                       |
-| **body**           | Categorical | The vehicle's body style. (SUV, Sedan, Pickup Truck)                          | `"SUV"`                                             |
-| **doors**          | Discrete    | The number of doors on the vehicle                                            | `4.0`                                               |
-| **exterior_color** | Categorical | The exterior color of the vehicle                                             | `"White"`                                           |
-| **interior_color** | Categorical | The interior color of the vehicle                                             | `"Global Black"`                                    |
-| **drivetrain**     | Categorical | The vehicle's drivetrain. (All-wheel Drive, Front-wheel Drive)                | `"Four-wheel Drive"`                                |
+- `name`: The full name of the vehicle, including make, model, and trim.
+- `description`: A brief vehicle description, often including key features and selling points.
+- `make`: The vehicle manufacturer (Ford, Toyota, BMW).
+- `model`: The model name of the vehicle.
+- `type`: The type of the vehicle, which is "New" for all entries in this dataset.
+- `year`: The year the vehicle was manufactured.
+- `price`: The price of the vehicle in USD.
+- `engine`: Details about the engine, including type and specifications.
+- `cylinders`: The number of cylinders in the vehicle's engine.
+- `fuel`: The type of fuel the vehicle uses (Gasoline, Diesel, Electric).
+- `mileage`: The vehicle's mileage, typically in miles.
+- `transmission`: The transmission type (Automatic, Manual).
+- `trim`: The trim level of the vehicle, indicating different feature sets or packages.
+- `body`: The vehicle's body style (SUV, Sedan, Pickup Truck).
+- `doors`: The number of doors on the vehicle.
+- `exterior_color`: The exterior color of the vehicle.
+- `interior_color`: The interior color of the vehicle.
+- `drivetrain`: The vehicle's drivetrain (All-wheel Drive, Front-wheel Drive)
 
 # Import Libraries and Dataset
 
@@ -81,7 +79,19 @@ vehicle_df.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
