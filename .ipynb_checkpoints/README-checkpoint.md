@@ -28,7 +28,30 @@ The "Vehicle Dataset 2024" dataset was found through Kaggle.com and is available
 
 # Data Cleaning
 ## Cleaning Findings
+- **Duplicate Row Findings**
+    - After removing the `description` column, 31 duplicate rows were found in the dataset.
+- **Missing Value Findings**
+    - **223** missing values were found in the `price`, `engine`, `cylinders`, `fuel`, `mileage`, `transmission`, `trim`, `body`, `doors`, `exterior_color`, and `interior_color` columns.
+    - Count of missing values per column:
+        - price: 23 missing,
+        - engine: 2 missing,
+        - cylinders: 103 missing,
+        - fuel: 7 missing,
+        - mileage: 32 missing,
+        - transmission: 2 missing,
+        - trim: 1 missing,
+        - body: 3 missing,
+        - doors: 7 missing,
+        - exterior_color: 5 missing, and
+        - interior_color: 38 missing.
+    - Data Sparsity of < 2%. ![](./images/missingvalues01.png)
+missing.
+
+
 ## Mitigation Methods
+- Dropped the `description` column
+    - A new DataFrame named `vehicle_only_df` was created by dropping the description column, which is best suited for analysis using NLP techniques and will be excluded from the DataFrame.
+
 ## Summary of Outcomes
 ## Export Clean Dataset
 
