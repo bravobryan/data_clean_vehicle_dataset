@@ -45,9 +45,27 @@ The "Vehicle Dataset 2024" dataset was found through Kaggle.com and is available
         - exterior_color: 5 missing, and
         - interior_color: 38 missing.
     - Data Sparsity of < 2%.
- ![Figure 1 – Visualization of missing values in the dataset. Solid bars indicate no missing values.](./images/missingvalues01.png)
+ ![figure01.png](./images/figure01.png)
 **Source Code**: _Bilogur, (2018). Missingno: a missing data visualization suite. Journal of Open Source Software, 3(22), 547, https://doi.org/10.21105/joss.00547_
 missing.
+
+- **Outlier Findings**
+    - The quantitative variables inspected for outliers were the `price`, `cylinders`, `mileage`, and `doors` columns.
+- `price`: 28 outliers found, right-skew distribution.
+     
+![figure02.png](./images/figure02.png)
+
+- `cylinders`: 104 outliers found, left-skew distribution.
+
+![figure03.png](./images/figure03.png)
+
+- `mileage`: 112 outliers found, right-skew distribution.
+
+![figure04.png](./images/figure04.png)
+
+- `doors`: 47 outliers found, left-skew distribution.
+
+![figure05.png](./images/figure05.png)
 
 
 ## Mitigation Methods
@@ -61,4 +79,5 @@ missing.
 ## Impact of Limitations
 
 # Sources
+- Bilogur, (2018). Missingno: a missing data visualization suite. Journal of Open Source Software, 3(22), 547, https://doi.org/10.21105/joss.00547
 - Kanchana1990. (2024, May 29). Vehicle Dataset 2024. _Kaggle.com_. Retrieved May 31, 2024, from https://www.kaggle.com/datasets/kanchana1990/vehicle-dataset-2024
